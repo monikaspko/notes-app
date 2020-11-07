@@ -30,7 +30,7 @@ jobs:
       - name: Push to GitHub Packages
         uses: docker/build-push-action@v1
         with:
-          username: <github username>
+          username: monikaspko
           password: ${{ secrets.CR_PAT }}
           registry: ghcr.io
           repository: <github username>/notes-app/notat-api
