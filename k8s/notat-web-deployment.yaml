@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: notat-web
-        image: ghcr.io/<github username>/notes-app/notat-web:<image-tag>
+        image: ghcr.io/monikaspko/notes-app/notat-web:sha-ec7204c
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
